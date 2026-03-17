@@ -9,7 +9,7 @@
 
 <script>
   const params = window.location.search;
-  const appUrl = "headunitapp://callback" + params;
+  const appUrl = "headunitapp://" + params;
   window.location.href = appUrl;
   setTimeout(() => {
     document.body.innerHTML = `
